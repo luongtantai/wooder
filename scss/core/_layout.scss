@@ -1,0 +1,34 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
+}
+
+body {
+    width: 100%;
+    font-size: 16px; // tuỳ thiết kế
+    line-height: 22px;
+    font-family: pr; // tuỳ thiết kế
+    letter-spacing: 0.4px;
+    color: $gray-cl-46; // tuỳ thiết kế
+    background-color: $white-cl;
+    .container {
+        width: $container-width;
+        max-width: $container-max-width;
+        padding-right: var(--gap);
+        padding-left: var(--gap);
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+    .container-fluid {
+        // width: $container-fluid-width;
+        // max-width: $container-fluid-max-width;
+        padding-right: var(--gap);
+        padding-left: var(--gap);
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+}
